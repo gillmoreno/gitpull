@@ -14,6 +14,10 @@ The script gitpull.sh on my server is as follows:
 
 *git pull https://USERNAME:PASSWORD@github.com/USERNAME/REPONAME*
 
-*#Then some code to restart the server... in my case restart docker*
+*#Then some code to restart the server... in my case restart docker-compose*
 
-*service docker restart*
+*cd path/to/docker/yml*
+
+*docker-compose down*
+
+*docker-compose up*
